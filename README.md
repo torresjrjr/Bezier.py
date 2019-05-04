@@ -1,13 +1,13 @@
 # Bezier.py
 Create Bezier curves in Python
 
-# Preview plots with (matplotlib)[https://matplotlib.org/gallery/index.html]
+## Preview plots with (matplotlib)[https://matplotlib.org/gallery/index.html]
 ![An assortment of Bezier curves plotted with matplotlib.pyplot](https://i.imgur.com/lAXdYWS.png)
 
 _Here's a 14 - point 3D Bezier curve:_
 ![14 - point 3D Bezier curve](https://i.imgur.com/Yw2u2FX.gif)
 
-# How to use
+## How to use
 Save the main file Bezier.py into your local directory to import into your python code.
 Import **Bezier** and **numpy** and use. Bezier only has 1 class for now, so you can use this code:
 
@@ -44,3 +44,7 @@ plt.show()
 The result:
 
 ![The resulting plot](https://i.imgur.com/DWjxns7.png) 
+
+## Dependancies
+- Python
+- numpy
