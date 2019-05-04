@@ -10,18 +10,18 @@ _Here's a 14-point 3D Bezier curve:_
 
 ## How to use
 Save the main file Bezier.py into your local directory to import into your python code.
-Import **Bezier** and **numpy** and use. Bezier only has 1 class for now, so you can use this code:
+Import **Bezier** and **numpy** and use. Bezier only has 1 class for now, so you can use this snippet:
 
 ```Python
 from Bezier import Bezier
 import numpy as np
 ```
-Create a Bezier curve with parameter `t` and an array of inital points `points1` of any dimension. Here's a 2D example:
+Create a Bezier curve with parameter `t` and a numpy array of inital points `points1` of any dimension. Here's a 2D example:
 
 ```Python
-t_points = np.arange(0, 1, 0.01)  # Creates an iterable list from 0 to 1.
-points1 = np.array([[0, 0], [0, 8], [5, 10], [9, 7], [4, 3]])  # Creates an array of coordinates.
-curve1 = Bezier.Curve(t_points, points1)		# Returns an array of coordinates.
+t_points = np.arange(0, 1, 0.01) #................................. Creates an iterable list from 0 to 1.
+points1 = np.array([[0, 0], [0, 8], [5, 10], [9, 7], [4, 3]]) #.... Creates an array of coordinates.
+curve1 = Bezier.Curve(t_points, points1) #......................... Returns an array of coordinates.
 ```
 
 You could plot your creations with matplotlib.
