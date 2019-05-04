@@ -1,7 +1,7 @@
 # Bezier.py
 Create Bezier curves in Python
 
-## Preview plots with (matplotlib)[https://matplotlib.org/gallery/index.html]
+## Preview plots with _matplotlib_
 ![An assortment of Bezier curves plotted with matplotlib.pyplot](https://i.imgur.com/lAXdYWS.png)
 
 _Here's a 14-point 3D Bezier curve:_  
@@ -45,6 +45,8 @@ plt.show()
 The result:
 
 ![The resulting plot](https://i.imgur.com/DWjxns7.png) 
+
+See `examples.py` for more.
 
 ## Dependancies
 - Python
