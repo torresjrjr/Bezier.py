@@ -1,9 +1,9 @@
 # Bezier.py
 Create Bezier curves in Python
 
-Version: 1.0
-Repository: https://github.com/torresjrjr/Bezier.py
-Author: [@torresjrjr](https://t.me/torresjrjr)
+Version: 1.0  
+Repository: https://github.com/torresjrjr/Bezier.py  
+Author: [@torresjrjr](https://t.me/torresjrjr)  
 
 ## Preview plots with _matplotlib_
 ![An assortment of Bezier curves plotted with matplotlib.pyplot](https://i.imgur.com/lAXdYWS.png)
